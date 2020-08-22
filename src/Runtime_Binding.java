@@ -1,5 +1,10 @@
 class Human {
 
+    public void Behaviour(String type)
+    {
+        System.out.println("Behaviour type ");
+    }
+
      public void Behaviour()
      {
          System.out.println("I am Human method");
@@ -22,7 +27,7 @@ public void Behaviour()
 
         man.Behaviour();
         human.Behaviour();
-
+        man.Behaviour("dog");
 
     }
 }
